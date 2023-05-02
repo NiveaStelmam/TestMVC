@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anime</title>
+</head>
+<body>
+
+ <h2 th:inline="text">Título: [[${anime.titulo}]]</h2>
+ <p th:inline="text">Gênero: [[${anime.genero}]]</p>
+ <p th:inline="text">Autores: [[${anime.autores}]]</p>
+
+</body>
+</html>
